@@ -1,0 +1,24 @@
+{
+  "name": "argon-fcc-nve-custom",
+  "box": [5.129927840030091, 5.129927840030091, 5.129927840030091],
+  "species": [ { "name": "Ar", "mass": 1.0 } ],
+  "epsilon": 1.0,
+  "sigma": 1.0,
+  "cutoff": 2.5,
+  "ensemble": "NVE",
+  "timeStep": 0.004,
+  "steps": 2000,
+  "seed": 42,
+  "minSeparation": 0.85,
+  "sampleInterval": 20,
+  "checkpointInterval": 500,
+  "retainedCheckpoints": 3,
+  "rdfBins": 400,
+  "maxTemperature": 50.0,
+  "timeoutMillis": 0,
+  "particles": [
+    { "species": "Ar",
+      "position": [0.0, 0.0, 0.0],
+      "velocity": [-0.42, 1.74, 0.13] }
+  ]
+}
